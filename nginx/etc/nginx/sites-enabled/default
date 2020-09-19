@@ -1,8 +1,8 @@
 upstream frontend {
-  server angularfinal:3000;
+  server angular-deploy:3000;
 }
 upstream backend {
-  server node:8000;
+  server nodejs-deploy:8000;
 }
 
 
